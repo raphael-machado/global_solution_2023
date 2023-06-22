@@ -1,0 +1,30 @@
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/problematica.css");
+@import url("styles/topicos.css");
+@import url("styles/contato.css");
+@import url("styles/footer.css");
+
+
+
+:root {
+    --cor-de-fundo: #ebecee;
+    --branco: #ffffff;
+    --verde-degrade: linear-gradient(97.54deg, #006E51 35.49%, #339E73 165.37%);
+    --fonte-principal: 'Poppins';
+    --verde: #006E51;
+    --fonte-secundaria: 'Joseph sans';
+    --fonte-titulo: 'Roboto Condensed';
+    --preto: #000000;
+    --cinza: #474646;
+    --cinza-claro: #858585;
+}
+
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+    overflow-x: hidden;
+}

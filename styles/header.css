@@ -1,0 +1,144 @@
+.cabecalho__menu-burguer {
+    width: 24px;
+    height: 24px;
+    background-image: url(../img/Menu.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+}
+
+.container__botao:checked~.container__rotulo>.cabecalho__menu-burguer {
+    background-image: url(../img/Menu\ Aberto.svg);
+}
+
+.container__botao:checked~.container__rotulo {
+    background: var(--verde-degrade);
+}
+
+.cabecalho {
+    background-color: var(--branco);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.container__imagem {
+    padding: 1em;
+}
+
+.lista-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    width: 60vw;
+}
+
+.container__botao:checked~.lista-menu {
+    display: block;
+}
+
+.lista-menu__titulo,
+.lista-menu__item {
+    padding: 1em;
+    background-color: var(--branco);
+}
+
+.lista-menu__titulo {
+    color: var(--preto);
+    font-weight: 700;
+}
+
+.lista-menu__link {
+    background: var(--verde-degrade);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-transform: uppercase;
+}
+
+.container__botao {
+    display: none;
+}
+
+.container__link {
+    text-decoration: none;
+    color: var(--preto);
+    font-family: var(--fonte-titulo);
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.b1 {
+    color: var(--verde);
+}
+
+.b2 {
+    color: rgb(76, 114, 238);
+}
+
+.opcoes {
+    display: none;
+}
+
+.container__texto {
+    display: none
+}
+
+@media screen and (min-width:1024px) {
+    .opcoes {
+        display: flex;
+        margin-right: 90em;
+        font-size: 17px;
+    }
+
+    .opcoes__item {
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+
+    .opcoes__link {
+        text-decoration: none;
+        color: var(--preto);
+    }
+
+    .cabecalho__menu-burguer {
+        display: none;
+    }
+
+    .opcoes__botao:checked~.lista-menu {
+        display: block;
+        width: auto;
+    }
+
+    .opcoes__botao {
+        display: none;
+    }
+
+    .opcoes__botao:checked~.opcoes__rotulo>.opcoes__item {
+        background: var(--verde-degrade);
+        color: var(--branco);
+    }
+
+    .opcoes__item {
+        padding: 2em;
+    }
+
+    .lista-menu__item:hover {
+        background: var(--verde-degrade);
+    }
+
+    .lista-menu__item:hover>.lista-menu__link {
+        -webkit-text-fill-color: var(--branco);
+        text-decoration: none;
+    }
+
+    .container__link {
+        margin: 0 1.2em;
+    }
+}

@@ -1,0 +1,52 @@
+.banner {
+    background: var(--verde-degrade);
+    color: var(--branco);
+    text-align: center;
+    padding: 1.5em 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner__titulo {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.banner__texto {
+    font-weight: 400;
+    margin: 1em 0;
+}
+
+.botoes {
+    background-color: transparent;
+    padding: 1em 2.2em;
+    color: var(--branco);
+    font-weight: 700;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 1em;
+}
+
+
+
+@media screen and (min-width: 1024px) {
+    .botoes {
+        width: 100px;
+    }
+
+    .botoes:hover {
+        background-color: white;
+        color: black;
+
+    }
+
+    .banner__titulo {
+        font-size: 25px;
+    }
+
+    .banner__texto {
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,238 @@
+.dadosfome {
+    margin: 1em 1em;
+    background-color: white;
+    border-radius: 10px;
+    padding: 0.5em;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.dadosfome__card {
+    margin: 1em 1em;
+    padding: 1em;
+    background-color: white;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 2em;
+}
+
+
+.dadosfome__titulo {
+    font-size: 21px;
+    font-weight: bolder;
+}
+
+.dadosfome__texto {
+    font-size: 18px;
+}
+
+
+.dadosfome__card2 {
+    background-color: white;
+    border-radius: 10px;
+    padding: 0.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 335px;
+    margin: 0 auto;
+    gap: 1em;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 3em;
+    font-size: 13.5px;
+
+}
+
+.dadosfome__card3 {
+    background-color: white;
+    border-radius: 10px;
+    padding: 0.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 335px;
+    margin: 0 auto;
+    gap: 1em;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 3em;
+    font-size: 13.5px;
+
+}
+
+.dadosfome__card4 {
+    background-color: white;
+    border-radius: 10px;
+    padding: 0.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 335px;
+    margin: 0 auto;
+    gap: 1em;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 3em;
+    font-size: 13.5px;
+
+}
+
+.dadosfome__card5 {
+    background-color: white;
+    border-radius: 10px;
+    padding: 0.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 335px;
+    margin: 0 auto;
+    gap: 1em;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 3em;
+    font-size: 13.5px;
+
+}
+
+.imgFome1 {
+    border-radius: 25px;
+    width: 250px;
+}
+
+.hr {
+    height: 25px;
+    background-color: var(--verde);
+    margin: 2em 1em;
+    border-radius: 50px;
+    border: none
+}
+
+
+.card3__titulo {
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.btns {
+    margin: 1em 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.btn__maria {
+    background-color: rgb(255, 0, 200);
+    color: white;
+    border-radius: 20px;
+    padding: 0.5em;
+    width: 150px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn__pedro {
+    background-color: rgb(48, 62, 245);
+    color: white;
+    border-radius: 20px;
+    padding: 0.5em;
+    width: 150px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn__guilherme {
+    background-color: green;
+    color: white;
+    border-radius: 20px;
+    padding: 0.5em;
+    width: 150px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn__maria:hover {
+    background-color: rgb(143, 3, 113);
+}
+
+.btn__pedro:hover {
+    background-color: rgb(25, 32, 126);
+}
+
+.btn__guilherme:hover {
+    background-color: rgb(7, 104, 7);
+}
+
+@media screen and (min-width:1024px) {
+    .dadosfome__card {
+        font-size: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .dadosfome__titulo {
+        font-size: 25px;
+        font-weight: bolder;
+    }
+
+
+    .dadosfome__card2 {
+        flex-direction: row;
+        width: 950px;
+        padding: 1.5em;
+        font-size: 17px;
+        gap: 2em;
+        display: block;
+    }
+
+    .imgFome1 {
+        width: 350px;
+    }
+
+    .dadosfome__card3 {
+        flex-direction: row-reverse;
+        width: 950px;
+        padding: 1.5em;
+        font-size: 17px;
+        gap: 2em;
+    }
+
+    .dadosfome__card4 {
+        flex-direction: row;
+        width: 950px;
+        padding: 1.5em;
+        font-size: 17px;
+        gap: 2em;
+    }
+
+    .dadosfome__card5 {
+        flex-direction: row;
+        width: 950px;
+        padding: 1.5em;
+        font-size: 17px;
+        gap: 2em;
+    }
+
+    .btns {
+        display: flex;
+        flex-direction: row;
+    }
+}
